@@ -1,3 +1,11 @@
+# BPC Notes: How to make?
+
+```shell
+cd lib/Doctrine/
+make libdoctrine-inflector.so && sudo make install-libdoctrine-inflector
+sudo ldconfig
+```
+
 # Doctrine Inflector
 
 Doctrine Inflector is a small library that can perform string manipulations
